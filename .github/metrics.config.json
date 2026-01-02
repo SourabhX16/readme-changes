@@ -5,7 +5,7 @@
     "retries": 3,
     "retries_delay": 300,
     "timeout": 900,
-    "user": "0xrinegade",
+    "user": "YOUR_GITHUB_USERNAME",
     "repositories_skipped": [],
     "users_ignored": [],
     "commits_authoring": [".user.login", ".user.name", ".user.email"],

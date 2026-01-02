@@ -42,7 +42,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: 0xrinegade
+          user: YOUR_GITHUB_USERNAME
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: true
@@ -86,7 +86,7 @@ jobs:
         with:
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: 0xrinegade
+          user: YOUR_GITHUB_USERNAME
           base: ""
           # Defensive configurations to prevent null/undefined errors
           config_timezone: Europe/Moscow
